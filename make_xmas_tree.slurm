@@ -5,7 +5,7 @@
 #SBATCH -o make_xmas_tree.out
 #SBATCH -e make_xmas_tree.err
 #SBATCH -p standard
-#SBATCH -A <<YOUR_ALLOCATION_NAME>>
+#SBATCH -A lukenslab
 #SBATCH --mem=1GB
 #SBATCH --cpus-per-task=1
 
